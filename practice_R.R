@@ -60,3 +60,13 @@ as.integer(x)
 #C=5/9×( F −32)
 city_temp$temp <- 5/9*(city_temp$temp-32)
 city_temp 
+
+# finding the Euclidean distance between these two vectors 
+a <- c(4, 5, 6)
+b <- c(7, 8, 9)
+euc <- dist(rbind(a,b))
+euc
+
+k <- 10 
+if(k<10) {print("It is less than 10")} else {print("It is not less than 10")}
+
